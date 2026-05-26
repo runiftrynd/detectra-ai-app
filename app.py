@@ -29,7 +29,7 @@ st.set_page_config(
 # ============================================================
 
 # Repository model Hugging Face milik Anda
-MODEL_REPO = "runiftrynd/detectra-ai"
+MODEL_REPO = "runiftrynd/detectra-ai-bert"
 
 # Sama dengan max_length pada saat training BERT
 MAX_LENGTH = 128
