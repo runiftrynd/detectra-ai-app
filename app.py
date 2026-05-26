@@ -238,7 +238,7 @@ try:
 except Exception as error:
     st.error(
         "Model tidak berhasil dimuat. Pastikan repository Hugging Face "
-        "`runiftrynd/detectra-ai-bert` sudah tersedia dan memiliki file model."
+        "`runiftrynd/detectra-ai` sudah tersedia dan memiliki file model."
     )
 
     st.code(str(error))
